@@ -1,0 +1,59 @@
+<div id="container">
+
+    <div id="back-wrapper">
+        <img src="assets/images/background.jpg" alt="">
+    </div>
+
+    <div id="logo">
+        <img src="assets\images\logo.png" alt="">
+    </div>
+
+    <div id="card-login">
+        <h3 id="entrar" class="text-3">Entrar</h3>
+
+        <form id="form" [formGroup]="login">
+
+            <!-- <div class="example-container">
+                <mat-form-field appearance="fill">
+                <mat-label>Enter your email</mat-label>
+                <input matInput placeholder="pat@example.com" [formControl]="email" required>
+                <mat-error *ngIf="email.invalid">{{getErrorMessage()}}</mat-error>
+                </mat-form-field>
+            </div> -->
+
+            <label for="email">
+                <input name="email" id="email" class="form-comp" placeholder="Email" type="email" required
+                    formControlName="email" [(ngModel)]="user.email">
+            </label>
+
+            <label for="senha">
+                <input name="senha" id="senha" class="form-comp" placeholder="Senha" type="password" required
+                    formControlName="senha" [(ngModel)]="user.senha">
+            </label>
+
+            <button id="botao-login" class="form-comp" type="button" (click)="loginSubmit()">
+                Entrar
+            </button>
+
+            <div id="form-footer-1">
+
+                <label for="lembre-se" class="text-1">
+                    <input type="checkbox" name="lembre-se">
+                    Lembre-se de mim
+                </label>
+
+                <a href="" id="ajuda" class="text-1">Precisa de ajuda?</a>
+            </div>
+
+
+            <div id="form-footer-2">
+                <div>
+                    <img src="" alt="">
+                    <p class="text-2">Conectar com Facebook</p>
+                </div>
+                <p class="text-2">Novo por aqui? <a class="text-3" href="">Assine agora.</a></p>
+            </div>
+
+        </form>
+    </div>
+</div>

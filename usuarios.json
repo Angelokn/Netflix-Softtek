@@ -1,0 +1,47 @@
+{
+    "usuarios": [
+        {
+            "id": 1,
+            "nome": "João",
+            "email": "joao@gmail.com",
+            "senha": "12345",
+            "logo": "joao.png",
+            "showName": "Spider Man - No Way Home",
+            "show": "spiderman.jpg"
+        },
+        {
+            "id": 2,
+            "nome": "Angelo",
+            "email": "angelo@gmail.com",
+            "senha": "54321",
+            "logo": "ang.png",
+            "showName": "Breaking Bad",
+            "show": "bb.png"
+        },
+        {
+            "id": 3,
+            "nome": "Ana",
+            "email": "ana@gmail.com",
+            "senha": "00000",
+            "logo": "ana.png",
+            "showName": "Fight Club",
+            "show": "fightclub.jpg"
+
+        },
+        {
+            "id": 4,
+            "nome": "Júlia",
+            "email": "julia@gmail.com",
+            "senha": "88888",
+            "logo": "julia.png",
+            "showName": "Arcane",
+            "show": "arcane.jpg"
+        },
+        {
+            "id": 5,
+            "nome": "Pedro",
+            "email": "pedro@gmail.com",
+            "senha": "55555"
+        }
+    ]
+}

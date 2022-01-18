@@ -1,0 +1,102 @@
+#container {
+    height: 100vh;
+    overflow-x: hidden;
+}
+
+#back-wrapper img {
+    background-size: cover;
+    display: block;
+    height: 100%;
+    width: 100%;
+    min-height: 100vh;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+    filter: brightness(50%);
+}
+
+#logo img{
+    width: 11.5rem;
+    margin: 1.2rem 2rem;
+}
+
+button {
+    cursor: pointer;
+}
+
+a, a:visited {
+    text-decoration: none;
+}
+
+#card-login {
+    display: inline-block;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 3%;
+    margin: 0 37.5%;
+    background: rgba(0, 0, 0, 0.75);
+}
+
+.form-comp {
+    display: flex;
+    flex-direction: column;
+    width: 18rem;
+    height: 2.5rem;
+    align-items: center;
+    margin-bottom: .8rem;
+    border-radius: 5px;
+    color: white;
+    background: rgb(71, 71, 71);
+}
+
+#email::placeholder, #senha::placeholder {
+    color: rgba(255, 255, 255, 0.5);
+    padding-left: 10px;
+    font-size: 14px;
+}
+
+#botao-login {
+    width: 18.5rem;
+    margin-top: 2rem;
+    justify-content: center;
+    color: white;
+    background-color: red;
+    border: none;
+}
+
+// #button-login:hover,
+// #button-login:focus {
+//     background-color: rgb(173, 0, 0);
+// }
+
+#entrar {
+    font-size: 30px;
+    text-align: left;
+    padding-bottom: 4%;
+}
+
+#form-footer-1 {
+    color: rgba(207, 207, 207, 0.9);
+    font-size: 12px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#form-footer-2 {
+    font-size: 14px;
+}
+
+.text-2 {
+    color: rgba(207, 207, 207, 0.9);
+}
+
+.text-3 {
+    color: white;
+    
+}
+
+#ajuda:visited {
+    color: rgb(143, 143, 143);
+}

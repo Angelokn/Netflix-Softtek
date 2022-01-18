@@ -1,0 +1,59 @@
+<div id="container">
+
+    <div id="back-wrapper">
+        <img src="assets\images\home-back.jpg" alt="">
+    </div>
+
+    <div id="navbar">
+        <div id="nav-left">
+            <img src="assets\images\logo.png" alt="">
+            <a class="nav-text">Início</a>
+            <a class="nav-text">Séries</a>
+            <a class="nav-text">Bombando</a>
+            <a class="nav-text">Minha lista</a>
+        </div>
+
+        <div id="nav-right">
+            <img class="icon" src="assets\images\lupa.png" alt="">
+            <img class="icon" src="assets\images\sino.png" alt="">
+            <img id="avatar" src=assets\images\users\{{userLogged.logo}} alt="">
+        </div>
+
+        <a id="btn-sair" type="button" (click)="goToLogin()">Sair</a>
+    </div>
+
+    <div id="user-card">
+
+        <h3 id="frase" >Continuar assistindo como <strong>{{userLogged.nome}}</strong>:</h3>
+
+
+        <div id="shows-card">
+            <h4 id="show-name">{{userLogged.showName}}</h4>
+            <img id="show" src="assets\images\users\{{userLogged.show}}" alt="">
+        </div>
+    </div>
+
+    <!-- <div id="home-footer">
+        <div id="footer-1" class="footer">
+            <p>Idiomas e legendas</p>
+            <p>Imprensa</p>
+            <p>Privacidade</p>
+            <p>Entre em contato</p>         
+        </div>
+
+        <div id="footer-2" class="footer">
+            <p>Audiodescrição</p>
+            <p>Relção com investidores</p>
+            <p>Avisos legais</p>
+        </div>
+
+        <div id="footer-3" class="footer">
+            <p>Centro de ajuda</p>
+            <p>Carreiras</p>
+            <p>Preferências de cookies</p> 
+        </div>
+    </div>
+    
+    <p class="footer">@ 1997-2022 Netflix, Inc.</p> -->
+
+</div>
